@@ -1,0 +1,19 @@
+import java.util.Random;
+
+public class SumRandomNumber {
+
+	public static void main(String[] args) {
+		
+		Random random=new Random();
+
+		for(int i=0;i<=7;i++) {
+			int firstNumber = random.nextInt(100);
+			int secondNumber = random.nextInt(100);
+			int sum=firstNumber+secondNumber;
+			
+			System.out.printf("%d + %d = %d",firstNumber,secondNumber,sum);
+		}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+INDEX VERSION 1.130+D:\java_miu_exercise\.metadata\.plugins\org.eclipse.jdt.core
+514396080.index
+3695520895.index
+539495184.index
+572949529.index
+3915312597.index
+2701284951.index
+2010707017.index
+3325172493.index
+2831948785.index
+4160068431.index
+2627667008.index
+4047773524.index
+2955125709.index
+2383395119.index
+1958963518.index
+1026791195.index
+361631813.index
+107573622.index
+4012913740.index

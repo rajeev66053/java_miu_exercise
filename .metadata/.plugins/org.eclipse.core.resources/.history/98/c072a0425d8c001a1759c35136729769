@@ -1,0 +1,17 @@
+
+public class Customer {
+	
+	private String firstName;
+	private String lastName;
+	private String socSecurityNum;
+	private String billingAddress;
+	private String shippingAddress;
+	
+	public Customer(String fname, String lname, String ssn) {
+		firstName=fname;
+		lastName=lname;
+		socSecurityNum=ssn;		
+		
+	}
+
+}

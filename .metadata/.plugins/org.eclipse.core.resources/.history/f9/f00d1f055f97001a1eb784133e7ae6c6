@@ -1,0 +1,10 @@
+
+public class Secretary {
+
+	String name;
+	float Salary;
+	String HireDate; 
+	
+	
+	
+}

@@ -1,0 +1,13 @@
+
+public class Professor extends DeptEmployee {
+
+	private int numberOfPublications;
+	
+	public String getNumberOfPublications() {
+		return name;
+	}
+	
+	public void setNumberOfPublications(int nop) {
+		this.numberOfPublications =nop ;
+	}
+}

@@ -1,0 +1,12 @@
+
+public class Prog2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		static final float PI=3.14;
+		int x = RandomNumbers.getRandomInt(1,9);
+		float area=Math.pow();
+		
+	}
+
+}

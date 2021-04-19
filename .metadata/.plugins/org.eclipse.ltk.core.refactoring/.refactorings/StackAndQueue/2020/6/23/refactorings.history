@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Prog9_1.MyStack&apos; to &apos;MyStringStack&apos;&#x0D;&#x0A;- Original project: &apos;StackAndQueue&apos;&#x0D;&#x0A;- Original element: &apos;Prog9_1.MyStack&apos;&#x0D;&#x0A;- Renamed element: &apos;Prog9_1.MyStringStack&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyStack&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Prog9_1{MyStack.java[MyStack" matchStrategy="1" name="MyStringStack" qualified="false" references="true" similarDeclarations="true" stamp="1591414536907" textual="true" version="1.0"/>
+</session>

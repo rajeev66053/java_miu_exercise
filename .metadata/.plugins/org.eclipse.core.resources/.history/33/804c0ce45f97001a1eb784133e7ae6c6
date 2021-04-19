@@ -1,0 +1,16 @@
+
+public class Secretary extends DeptEmployee {
+
+	private double overtimeHours; 
+	
+	public double getOvertimeHours() {
+		return overtimeHours;
+	}
+	
+	public void setOvertimeHours(double oth) {
+		this.overtimeHours =oth ;
+	}
+	
+	
+	
+}

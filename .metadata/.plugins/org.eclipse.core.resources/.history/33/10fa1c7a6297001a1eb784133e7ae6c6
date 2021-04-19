@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Professor p1=Professor();
+		Professor p2=Professor();
+		Professor p3=Professor();
+		Secretary s1=Secretary();
+		Secretary s2=Secretary();
+	}
+
+}

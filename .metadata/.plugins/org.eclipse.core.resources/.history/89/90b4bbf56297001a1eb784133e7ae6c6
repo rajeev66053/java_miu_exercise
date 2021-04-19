@@ -1,0 +1,33 @@
+import java.util.Date;
+
+public class Secretary extends DeptEmployee {
+
+
+	Secretary(String name, double aSalary, int aYear, int aMonth, int aDay) {
+		super(name, aSalary, aYear, aMonth, aDay);
+		// TODO Auto-generated constructor stub
+	}
+
+	private double overtimeHours; 
+	
+	public double getOvertimeHours() {
+		return overtimeHours;
+	}
+	
+	public void setOvertimeHours(double oth) {
+		this.overtimeHours =oth ;
+	}
+	
+	@Override
+	public double computeSalary() {
+		
+		Secretary s=new Secretary();		
+		double Salary=s.computeSalary();
+		
+		
+		return Salary+12*overtimeHours;
+	}
+	
+	
+	
+}

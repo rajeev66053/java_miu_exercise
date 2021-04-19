@@ -1,0 +1,32 @@
+
+public class Prog7_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double x=2;
+		int n=10;
+		double result;
+		
+		result=power(x,n);
+		
+		System.out.println("Result:"+result);			
+
+	}
+	
+	public static double power(double x,int n) {
+		
+		double result=1;
+		int count=0;
+		
+		if(count<n) {
+			result*=x;
+			count++;
+			return power(x,n);
+			
+		}
+		
+		return result;
+	}
+
+}

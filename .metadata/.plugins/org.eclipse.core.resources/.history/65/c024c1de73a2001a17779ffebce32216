@@ -1,0 +1,25 @@
+
+public class MinSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MinSort ms = new MinSort();
+		String result = ms.sort("zwxuabfkafutbbbb");
+		System.out.println(result);
+		
+	}
+	
+	public class RecursiveMin {
+		public Character rmin(String str) {
+		if(str == null || str.length() == 0) {
+		return null;
+		}
+		char ch = str.charAt(0);
+		if(str.length() == 1) return ch;
+		char c = rmin(str.substring(1));
+		return (ch < c ? ch : c);
+		}
+		}
+
+}

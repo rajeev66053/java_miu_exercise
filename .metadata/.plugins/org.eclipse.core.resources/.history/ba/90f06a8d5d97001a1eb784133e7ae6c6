@@ -1,0 +1,7 @@
+
+public class DeptEmployee {
+
+	private String name;
+	private double salary;
+	private Date hireDay;
+}

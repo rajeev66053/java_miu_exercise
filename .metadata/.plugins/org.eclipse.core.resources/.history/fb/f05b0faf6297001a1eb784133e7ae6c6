@@ -1,0 +1,18 @@
+
+public class Professor extends DeptEmployee {
+
+	Professor(String name, double aSalary, int aYear, int aMonth, int aDay) {
+		super(name, aSalary, aYear, aMonth, aDay);
+		// TODO Auto-generated constructor stub
+	}
+
+	private int numberOfPublications;
+	
+	public int getNumberOfPublications() {
+		return numberOfPublications;
+	}
+	
+	public void setNumberOfPublications(int nop) {
+		this.numberOfPublications =nop ;
+	}
+}

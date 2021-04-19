@@ -1,0 +1,8 @@
+
+public class Professor {
+
+
+	String name;
+	float Salary;
+	String HireDate;
+}

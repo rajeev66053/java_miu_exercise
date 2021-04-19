@@ -1,0 +1,40 @@
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class DeptEmployee {
+
+	private String name;
+	private double salary;
+	private Date hireDay;
+	
+		DeptEmployee(String name, double aSalary , int aYear,
+				int aMonth, int aDay){
+			this.name=name;
+			salary = aSalary;
+			GregorianCalendar cal = new GregorianCalendar(aYear, aMonth - 1, aDay);
+			hireDay = cal.getTime();
+		}
+		
+	// instance methods
+		public String getName() {
+			return name;
+		}
+		
+		public void setName(String name) {
+			this.name =name ;
+		}
+		
+		// needs to be improved
+		public Date getHireDay() {
+			return hireDay;
+		}
+		
+		public void setHireDay(int aYear,int aMonth,int aDay) {
+			GregorianCalendar cal = new GregorianCalendar(aYear, aMonth - 1, aDay);
+			hireDay = cal.getTime();
+		}
+		
+		public double computeSalary() {
+			return salary;
+		}
+}

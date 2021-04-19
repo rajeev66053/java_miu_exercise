@@ -1,0 +1,8 @@
+
+public class Secretary extends DeptEmployee {
+
+	private double overtimeHours; 
+	
+	
+	
+}
